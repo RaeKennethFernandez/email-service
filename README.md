@@ -50,7 +50,7 @@ PORT=4000
 
 ---
 
-## 📦 Installation
+## Installation
 
 ```bash
 npm install
@@ -58,7 +58,7 @@ npm install
 
 ---
 
-## ▶️ Run the Service
+## Run the Service
 
 ```bash
 npm start
@@ -72,7 +72,7 @@ http://localhost:4000/api/email/send
 
 ---
 
-## 📤 Example Request
+## Example Request
 
 ```bash
 curl -X POST http://localhost:4000/api/email/send   -H "Content-Type: application/json"   -d '{
@@ -94,7 +94,7 @@ curl -X POST http://localhost:4000/api/email/send   -H "Content-Type: applicatio
 
 ---
 
-## 🔧 Future Improvements
+## Future Improvements
 - Add support for other providers (SES, SendGrid, SMTP).
 - Rate limiting and queue system.
 - Dockerfile for containerization.
@@ -102,5 +102,5 @@ curl -X POST http://localhost:4000/api/email/send   -H "Content-Type: applicatio
 
 ---
 
-## 📜 License
-MIT License
+## License
+[MIT License](LICENSE)
